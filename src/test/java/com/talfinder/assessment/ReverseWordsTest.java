@@ -31,7 +31,7 @@ public class ReverseWordsTest {
 
     @Test
     public void testReverseWords() {
-        Assert.assertEquals("Input:" + input, expected, ReverseWords.reverseWords(input));
+        Assert.assertEquals("input:" + input, expected, ReverseWords.reverseWords(input));
     }
 }
 
